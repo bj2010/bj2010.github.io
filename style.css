@@ -152,11 +152,15 @@ body {font-family: 'Roboto', sans-serif;background: #fff;font-size: 16px;color: 
 	margin-left: 30px;
 	margin-top: 10px;
 	height: auto;
-	width: 650px;
+	width:660px;
 	float: left;
 }
 .font_title{
 	font-size: 19px;
+}
+.article_left iframe{
+	width: 500px;
+	height: 500px;
 }
 
 .article_center_1{
