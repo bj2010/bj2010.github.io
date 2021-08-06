@@ -1,170 +1,267 @@
 <!DOCTYPE html>
-<html lang="en" style="cursor: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Chuhua Xian's Homepage</title>
-    <meta name="author" content="Chuhua Xian">
-    <meta name="copyright" content="Chuhua Xian&#39;s Homepage">
-    <meta name="keywords" content="Chuhua Xian, Computer Graphics, Research">
+        <title>Teaching Prof.Jing Bai at North Minzu University(北方民族大学)</title>
+        
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,500,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-<script async="" src="./teaching_files/analytics.js"></script><script src="./teaching_files/Lv21bWx_TlgXJs_ZpIrXfYxh8SE.js"></script>
-<script src="./teaching_files/ab6emSAvjKJLfKS7Yxc1Ll67N0k.js"></script>
-<link rel="stylesheet" type="text/css" href="./teaching_files/style2.css">
-<script src="./teaching_files/jquery-1.11.3.min.js"></script>
-<script src="./teaching_files/velocity.min.js"></script>
-<script src="./teaching_files/jquery.smoothState.js"></script>
-<script src="./teaching_files/aes.js"></script>
-<script src="./teaching_files/code2.js"></script>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- MaterialCSS -->
+        <link rel="stylesheet" href="css/material.min.css">
+        <!-- RipplesCSS -->
+        <link rel="stylesheet" href="css/ripples.min.css">
+        
+        <!-- ThemeCSS & Responsive CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
 
-<body class="" style="cursor: auto;">
-<div id="wrap" class="animated fadeIn"><div id="teach">
-<noscript>
-            <div class="warning">
-                <b style="color:#a00">Warning:</b> Please enable <b>Javascript</b> for full functionality of this page
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        												<!-- Row Highlight Javascript -->
+		<script type="text/javascript">
+			window.onload=function(){
+			var tfrow = document.getElementById('tfhover').rows.length;
+			var tbRow=[];
+			for (var i=1;i<tfrow;i++) {
+				tbRow[i]=document.getElementById('tfhover').rows[i];
+				tbRow[i].onmouseover = function(){
+				  this.style.backgroundColor = '#ffffff';
+				};
+				tbRow[i].onmouseout = function() {
+				  this.style.backgroundColor = '#FBFBFB';
+				};
+			}
+		};
+		</script>
+		
+		<style type="text/css">
+		table.tftable { text-align:center; font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #a9a9a9;border-collapse: collapse;}
+		table.tftable th {font-size:12px;background-color:#b8b8b8;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;text-align:left;}
+		table.tftable tr {background-color:#FBFBFB;}
+		table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;}
+		</style>
+															
+    </head>
+    <body>
+        
+        <header class="header">
+            <div data-velocity="-.4" id="particles" class="header-bg"></div>
+
+        </header>
+        
+        <section class="maincontent-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="maincotnent shadow-z-1">
+                            <div class="mainmenu">
+                                <div class="navbar navbar-nobg">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+									<!--导航栏-->
+                                    <div class="navbar-collapse collapse"> 
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="index.html">Home<div class="ripple-wrapper"></div></a></li>
+                                            <li><a href="Publications.html">Publications</a></li>
+                                            <li><a href="Group.html">Group</a></li>
+                                            <li class="active1"><a href="Teaching.html">Teaching</a></li>
+                                            <li><a href="Contact.html">Contact</a></li>
+                                            <li><a href="Resources.html">Resources</a></li>
+                                   
+                                        </ul>                                                     
+                                    </div>     
+                                </div> 
+                            </div> 
+                            
+                          
+                            <div class="row">
+                            	<!-- 教学-->
+                            	<div class="col-md-10 col-md-offset-1">
+                                    <div class="article-list">
+                                        <article class="post">
+                                        	
+                                            <header class="article-title ">
+                                                <div class="resarch_mar font_title" ><b>教研论文</b> </div>
+                                            </header>
+                                            <div class="article-featured-content shadow-z-2">
+                                            	<!--论文题目：简介-->
+                                                <div class="article_group ">
+                                                	<p><b>•</b>		白静. 网络工程专业工作坊教学模式改革探索[J]. 教育教学论坛, 2019年10月 </p>
+                                                	<p><b>•</b>		白静. 程序设计语言课程多元综合评价体系构建及应用研究[J]. 教育教学论坛, 40 (2015): 197-198. </p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>  
+                                </div>
+                              	<!--增加区域块-->
+                            	<div class="col-md-10 col-md-offset-1">
+                                    <div class="article-list">
+                                        <article class="post">                                    	
+                                            <header class="article-title ">
+                                                <div class="resarch_mar font_title" ><b>科研项目</b> </div>
+                                            </header>
+                                            <div class="article-featured-content shadow-z-2">
+                                            	<!--论文题目：简介-->
+                                                <div class="article_group">	
+                                                	<p class="span_t"><b>•</b>		2018.1.1-2021.12，主持，在研，国家自然科学基金项目“基于深度学习的非刚性三维模型多模态检索研究”，项目编号：61762003，经费39万元，立项部门：国家自然科学基金委 </p>
+                                                	<p class="span_t"><b>•</b>		2019.5-2021.5，主持，在研，2019年重点研发计划（西部之光）“多源信息融合的智能装配技术研究”，项目编号：2018QNXZ0024，经费10万元，立项部门：宁夏回族自治区科学技术厅 </p>
+                                            		<p><b>•</b>		2019.7-2021.7，主持，完成，电子科学与技术一流学科科学研究类项目“基于手绘草图的三维模型检索关键技术研究”，10万元，立项部门：北方民族大大学（4篇EI，2篇SCI） </p>
+                                               		<p><b>•</b>		2019.5-2022.5，主持，完成，北方民族大学重点科研项目（科技创新类）“面向复杂产品广义设计的三维模型检索研究”，项目编号：2019KJ27，经费10万元，立项部门：北方民族大学</p>	
+                                               		<p><b>•</b>		2018.8-2020.1，主持，完成，宁夏自然科学基金资助项目，“面向多模态信息源的三维数据识别技术研究” 项目编号：2018AAC03124，经费3万元，立项部门：宁夏回族自治区科学技术厅（结题）</p>	
+                                               		<p><b>•</b>		2017.7-2019.7，主持，完成，电子科学与技术一流学科科学研究类项目“面向多模态信息源的三维数据获取关键技术研究”，14万元，立项部门：北方民族大学</p>	
+                                               		<p><b>•</b>		2012.1-2016.12：主持，完成，国家自然科学基金项目，“新产品数字化设计中的三维CAD模型局部检索技术研究”，项目编号：61163016，经费：49万，立项部门：国家自然科学基金委</p>	
+                                               		<p>>>More</p>	
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>  
+                                </div>
+                              	<!--软件著作-->
+                            	<div class="col-md-10 col-md-offset-1">
+                                    <div class="article-list">
+                                        <article class="post">
+                                        	<header class="article-title ">
+                                                <div class="resarch_mar font_title" ><b>软件著作专利</b> </div>
+                                            </header>
+                                            <div class="article-featured-content shadow-z-2">
+                                            	<!--论文题目：简介-->
+                                                <div class="article_group">
+
+															<table id="tfhover" class="tftable" border="1">
+															<tr><th style="text-align:center;">软著名称</th><th style="text-align:center;">登记号</th><th style="text-align:center;">开发时间</th><th style="text-align:center;">证书编号</th></tr>
+															<tr><td>基于指纹识别的大学生考试管理系统V1.0</td><td>2015SR032115</td><td>2014.05.31-2015.02.13</td><td>00660039</td></tr>
+															<tr><td>基于指纹识别的大学生体质检测系统V1.0</td><td>2014SR051867</td><td>2013.06.25-2014.04.29</td><td>00450980</td></tr>
+															<tr><td>基于指纹识别的考试管理系统V1.0</td><td>2013SR093617</td><td>2013.01.02-2013.09.02</td><td>00321446</td></tr>
+															<tr><td>基于指纹识别的电子签名系统V1.0</td><td>2013SR094005</td><td>2012.12.31-2013.09.02</td><td>00322570</td></tr>
+															<tr><td>基于内容的实体模型相似性评价系统软件 V1.0</td><td>2007SR08951</td><td>-</td><td>-</td></tr>
+															</table>
+
+
+                                            	</div>
+                                            </div>
+                                        </article>
+                                    </div>  
+                                </div>
+                            	<div style="height: 20px;width: 100%; float: left;"></div>
+                            	
+                                <!--授权专利-->
+                            	 <div class="col-md-10 col-md-offset-1">
+                                    <div class="article-list">
+                                        <article class="post">
+                                        	<header class="article-title ">
+                                                <div class="resarch_mar font_title" ><b>授权专利</b> </div>
+                                            </header>
+                                            <div class="article-featured-content shadow-z-2">
+                                            	<!--论文题目：简介-->
+                                                <div class="article_group">
+                                                	<p><b>•</b>		发明人:白静,司庆龙,刘振刚. 基于端到端深度集成学习网络的三维模型分类方法（发明专利）专利号 ZL201810446582.4. 授权公告日：2020年8月7日，授权公告号：申请日期：2018年5月11日，公开日期：2018.09.28，证书号：第3927604号，主分类号： G06N 3/04  </p>
+                                                	<p><b>•</b>		发明人:白静,徐浩钧. 基于深度学习的点云数据分类方法（发明专利）专利号 ZL201910454307.1. 授权公告日：2021年2月9日，授权公告号：CN110197223 B申请日期：2019年5月29日，公开日期：2019.09.03，证书号：第4545505号，主分类号： G06K 9/62  </p>
+                                                	<p><b>•</b>		发明人:白静,孔德馨,周文惠,王梦杰. 基于草图检索三维模型的跨模态检索方法（发明专利）专利号 ZL201910449248.9. 授权公告日：2021年7月2日，授权公告号：CN110188228 B申请日期：2019年5月28日，公开日期：2019.08.30，证书号：第4521238号，主分类号： G06F 16/583  </p>
+													<table id="tfhover" class="tftable" border="1">
+													<tr><th style="text-align:center;">序号</th><th style="text-align:center;">申请日期</th><th style="text-align:center;">专利名称</th><th style="text-align:center;">申请号</th><th style="text-align:center;">专利类型</th><th style="text-align:center;">申请人</th><th style="text-align:center;">发明人</th><th style="text-align:center;">状态</th></tr>
+													<tr><td>1</td><td>2018-05-11</td><td>基于端到端深度集成学习网络的三维模型分类方法</td><td>2018104465824</td><td>发明</td><td>北方民族大学</td><td>白静,司庆龙,刘振刚</td><td>等年登印费</td></tr>
+													<tr><td>2</td><td>2018-05-11</td><td>基于轻量级网络LightPointNet的实时点云模型分类方法</td><td>2018104464802</td><td>发明</td><td>北方民族大学</td><td>白静,司庆龙,刘振刚</td><td>等待实审提案</td></tr>
+													<tr><td>3</td><td>2018-07-18</td><td>一种基于卷积神经网络的三维点云模型分类方法</td><td>2018107901331</td><td>发明</td><td>北方民族大学</td><td>白静,司庆龙,刘振刚</td><td>等待实审提案</td></tr>
+													<tr><td>4</td><td>2018-08-17</td><td>一种基于深度学习的邮票识别方法</td><td>2018109379416</td><td>发明</td><td>北方民族大学</td><td>白静,仝京,刘振刚</td><td>等待实审提案</td></tr>
+													<tr><td>5</td><td>2018-11-26</td><td>一种基于草图检索三维模型的跨模态检索方法</td><td>2018114145964</td><td>发明</td><td>北方民族大学</td><td>白静,王梦杰,田栋文</td><td>等待实审提案</td></tr>
+													<tr><td>6</td><td>2019-05-28</td><td>基于草图检索三维模型的跨模态检索方法</td><td>2019104492489</td><td>发明</td><td>北方民族大学</td><td>白静,孔德馨,周文惠,王梦杰</td><td>等待实审提案</td></tr>
+													<tr><td>7</td><td>2019-05-28</td><td>一种跨域变分对抗自编码方法</td><td>2019104490924</td><td>发明</td><td>北方民族大学</td><td>白静,田栋文,张霖,杨宁</td><td>等待实审提案</td></tr>
+													<tr><td>8</td><td>2019-05-29</td><td>基于深度学习的点云数据分类方法</td><td>2019104543071</td><td>发明</td><td>北方民族大学</td><td>白静,徐浩钧</td><td>等待实审提案</td></tr>
+													<tr><td>9</td><td>2019-05-29</td><td>一种无监督多模态对抗自编码的图像生成方法及框架</td><td>2019104549148</td><td>发明</td><td>北方民族大学</td><td>白静,陈冉,姬卉,李赛赛</td><td>等待实审提案</td></tr>
+													<tr><td>10</td><td>2019-06-24</td><td>一种半监督多模态多类别的图像翻译方法</td><td>2019105489619</td><td>发明</td><td>北方民族大学</td><td>白静,陈冉,李赛赛,姬卉</td><td>等待实审提案</td></tr>
+													<tr><td>11</td><td>2020-01-06</td><td>一种基于上下文感知注意力的图像翻译方法</td><td>2020100088022</td><td>发明</td><td>北方民族大学</td><td>白静、陈冉、刘敏</td><td>等待实审提案</td></tr>
+													
+													
+													
+													
+													</table>
+
+
+                                            	</div>
+                                            </div>
+                                        </article>
+                                    </div>  
+                            	
+                            	</div>
+                                <!--增加区域块-->
+                            	<div class="col-md-10 col-md-offset-1">
+                                    <div class="article-list">
+                                        <article class="post">
+                                            <div class="article-featured-content shadow-z-2">
+
+                                            	<!--论文题目：简介-->
+                                                <div class="article_group">
+	
+                                            	</div>
+                                            </div>
+                                        </article>
+                                    </div>  
+                            	
+                            </div>
+                                 <!--增加区域块-->
+                            	<div class="col-md-10 col-md-offset-1">
+                                    <div class="article-list">
+                                        <article class="post">
+                                            <div class="article-featured-content shadow-z-2">
+
+                                            	<!--论文题目：简介-->
+                                                <div class="article_group">
+	
+                                            	</div>
+                                            </div>
+                                        </article>
+                                    </div>  
+                            	
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
             </div>
-        </noscript>
-<div id="wrap_header">
-<header>
-<div style="float:left" class="valign">
-<div style="font-size:13pt" class="valign_child">
-<h1>Chuhua Xian</h1>
-Associate Professor
-</div>
-</div>
-<div style="float:right; margin-right:15px" class="valign">
-<div class="valign_child">
-<p style="margin-bottom:5px">
-<a>School of Computer Science and Engineering</a><br>
-</p>
-<p>
-<a style="font-size:14pt; font-weight:bold" class="">South China University of Technology</a>
-</p>
-</div>
-</div>
-</header>
-<nav>
-<ul>
-    <li><a id="nav_home" href="index.html" class=""><span></span>Home</a></li>
-    <li><a id="nav_pub" href="publications.html" class=""><span></span>Publications</a></li>
-    <li><a id="nav_teach" href="teaching.html" class=""><span></span>Teaching</a></li>
-    <li><a id="nav_research" href="group.html" class=""><span></span>Group</a></li>
-    <li><a id="nav_contact" href="contact.html" class=""><span></span>Contact</a></li>
-    <li><a id="nav_misc" href="personal.html" class=""><span></span>Personal</a></li>
-</ul>
-</nav>
-</div>
-<div id="icon_loading" class="hidden">Loading...</div>
-<div id="wrap0_main" class="" style="opacity: 0;"></div>
-<div id="wrap1_main" class="" style="opacity: 1;">
-<div class="contents">
+        </section>
+        <!--网页底部-->
+        <footer class="footer">
+            <div class="container">
+                    <div class="col-md-12">
+                        <div class="footer-bottom ">
+                            <div class="row1" >                             
+                                    <div class="copyright-text">
+                                        <p>Copyright &copy; 2010-2021.</p>
+                                    </div>                
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </footer>
+    
 
 
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/material.min.js"></script>
+        <script src="js/ripples.min.js"></script>
+        <script src="js/jquery.scrolly.js"></script>
+        <script src="js/jquery.particleground.min.js"></script>
+        <script src="js/main.js"></script>
 
-
-<div class="title">
-<span id="teach_uci" class="anchor"></span><span>Undergraduate courses</span>
-</div>
-<dl class="courselist">
- 
- 
-<dt>Spring 2021:</dt>
-<dd>
-<a href="/algorithm.html">Design and Analysis of Algorithm</a>. 
-</dd>
-
-
-<dt>Fall 2020:</dt>
-<dd>ACM Programming Contest</dd>
-
-<dt>Spring 2020:</dt>
-<dd>
-Design and Analysis of Algorithm
-</dd>
-
-   
-<dt>Fall 2019:</dt>
-<dd>ACM Programming Contest</dd>
-
-<dt>Spring 2019:</dt>
-<dd>
-Design and Analysis of Algorithm
-</dd>
-
-   
-<dt>Fall 2018:</dt>
-<dd>ACM Programming Contest</dd>
-
-<dt>Spring 2018:</dt>
-<dd>
-Design and Analysis of Algorithm
-</dd>
-
-   
-<dt>Fall 2017:</dt>
-<dd>ACM Programming Contest</dd>
-
-<dt>Spring 2017:</dt>
-<dd>
-Design and Analysis of Algorithm
-</dd>
-
-   
-<dt>Fall 2016:</dt>
-<dd>ACM Programming Contest</dd>
-
-<dt>Spring 2016:</dt>
-<dd>
-Design and Analysis of Algorithm
-</dd>
-
-   
-<dt>Fall 2015:</dt>
-<dd>ACM Programming Contest</dd>
-
-<dt>Spring 2015:</dt>
-<dd>
-Design and Analysis of Algorithm
-</dd>
-
-   
-<dt>Fall 2014:</dt>
-<dd>Web Programming Contest</dd>
-
-<dt>Spring 2014:</dt>
-<dd>
-Design and Analysis of Algorithm
-</dd>
-
-
-   
-<dt>Fall 2013:</dt>
-<dd>Web Programming Contest</dd>
-
-   
-<dt>Spring 2013:</dt>
-<dd>
-Design and Analysis of Algorithm
-</dd>
-
-</dl>
-
-</div> 
-<footer>
-<div style="float:left; padding-left:20px" class="container">
-<div class="valign_child">
-Copyright © 2020-2021 <a>Chuhua Xian</a>
-
-</div>
-</div>
-<div style="float:right; padding-right:20px" class="container">
-<div class="valign_child">
-
-</div>
-</div>
-</footer>
-</div> 
-</div></div><div class="xl-chrome-ext-bar" id="xl_chrome_ext_{4DB361DE-01F7-4376-B494-639E489D19ED}" style="display: none;">
-      <div class="xl-chrome-ext-bar__logo"></div>
-
-    </div>
-</body>
+    </body>
 </html>
