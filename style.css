@@ -386,6 +386,8 @@ body {font-family: 'Roboto', sans-serif;background: #fff;font-size: 16px;color: 
 
 
 .article_pubulic_center{
+	text-align: justify;
+	letter-spacing: 1px;
 	padding-left: 30px;
 	height: 140px;
 	width: auto;
@@ -710,10 +712,16 @@ body {font-family: 'Roboto', sans-serif;background: #fff;font-size: 16px;color: 
 	
 }
 .article_pubulic_center{
+
 	padding-left: 30px;
 	height: 140px;
 	width: 70%;
 	float: left;
+}
+.article_pubulic_center p {
+	text-align: justify;
+	letter-spacing: 1px;
+	
 }
 	
 .intro_disply{
