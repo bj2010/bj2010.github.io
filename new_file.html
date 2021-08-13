@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>最简单的css实现页面宽度自适应</title>
+    <style>
+        div.rxs {
+            width: 100%;
+            height: auto;
+        }
+
+        div.rxleft {
+            width: auto;
+            float: left;
+            height: auto;
+            margin-bottom: 0;
+            margin-top: 10px;
+            padding-right: 10px;
+        }
+
+        hr {
+            margin-top: 10px;
+            margin-bottom: 0;
+            border-top: 1px solid #CCC;
+        }
+    </style>
+</head>
+<body>
+
+<div class="rxs">
+    <div class="rxleft">
+        第一段内容，可以是任何html标签
+    </div>
+    <div class="rxleft">
+        第二段内容，可以是任何html标签
+    </div>
+    <div class="rxleft">
+        第三段内容，可以是任何html标签
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+<hr>
+
+</body>
+</html>
