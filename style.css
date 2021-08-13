@@ -693,7 +693,9 @@ body {font-family: 'Roboto', sans-serif;background: #fff;font-size: 16px;color: 
 .intro_cover{
 	display: none;
 }
-
+.accepted{
+	color: #145b7d;
+}
 @media (min-width: 768px) and (max-width: 1812px) {
 	
 .article_pubulic_left{
