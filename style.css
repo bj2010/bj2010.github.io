@@ -698,6 +698,17 @@ body {font-family: 'Roboto', sans-serif;background: #fff;font-size: 16px;color: 
 .accepted{
 	color: red;
 }
+.i_mi_font{
+	text-transform: none;
+	font-size: 14px;
+}
+.i_mi_link{
+
+	color: blue;
+	text-decoration:underline;
+	cursor: pointer;
+}
+
 @media (min-width: 768px) and (max-width: 1812px) {
 	
 .article_pubulic_left{
