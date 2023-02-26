@@ -42,8 +42,6 @@
 				<arguments>1.0-name-matches-false-false-node_modules</arguments>
 			</matcher>
 		</filter>
-<<<<<<< HEAD
-=======
 		<filter>
 			<id>1676452811098</id>
 			<name></name>
@@ -71,6 +69,5 @@
 				<arguments>1.0-name-matches-false-false-node_modules</arguments>
 			</matcher>
 		</filter>
->>>>>>> df563b7 (new files)
 	</filteredResources>
 </projectDescription>
