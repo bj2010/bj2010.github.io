@@ -160,7 +160,7 @@ body {font-family: 'Roboto', sans-serif;background: #fff;font-size: 16px;color: 
 .article_center{
 	margin-left: 30px;
 	margin-top: 10px;
-	height: 290px;
+	/* height: 290px; */
 	width:70%;
 	float: left;
 	
